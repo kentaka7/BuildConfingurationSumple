@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>kHogehoge</key>
+    <string>$(HOGEHOGE)</string>
+    <key>kBundle_id_suffix</key>
+    <string>$(BUNDLE_ID_SUFFIX)</string>
 </dict>
 </plist>

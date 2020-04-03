@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BuildConfingurationSumple.xcscheme_^#shared#^_</key>
+		<key>Develop_BuildConfingurationSumple.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Release_BuildConfingurationSumple.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Staging_BuildConfingurationSumple.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>23D3C89C2435A6C0003E0693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D3C8B02435A6C1003E0693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D3C8BB2435A6C1003E0693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

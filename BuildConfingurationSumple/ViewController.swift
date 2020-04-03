@@ -10,9 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let hoge = Bundle.main.object(forInfoDictionaryKey: "kHogehoge")
+        let kBundle = Bundle.main.object(forInfoDictionaryKey: "kBundle_id_suffix")
+        
+        print(kBundle)
+        
+        
+        #if DEVELOP
+        self.testLabel.text = "開発中"
+        #elseif STAGING
+        self.testLabel.text = "確認してください"
+        #else
+        self.testLabel.text = "本番向けです"
+        #endif
+
     }
 
 
